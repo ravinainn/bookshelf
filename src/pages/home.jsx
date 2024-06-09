@@ -42,7 +42,7 @@ const BookSearch = () => {
           SEARCH THE NAME OF BOOK YOU WANTS TO ADD
         </p>
         <input
-          className="md:min-w-64 w-fit border bg-transparent border-slate-800 p-2 rounded rounded-e-none focus:outline-none  "
+          className="md:min-w-64 w-fit border bg-transparent border-slate-800 p-2 rounded  focus:outline-none  "
           type="text"
           value={searchTerm}
           onChange={handleInputChange}
